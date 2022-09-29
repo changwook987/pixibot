@@ -103,3 +103,6 @@ java.lang.NumberFormatException: The specified ID is not a valid snowflake (ì”¹ë
 11:31:46.252 Reconnect failed! Next attempt in 8s
 12:31:39.559 [Gbunny#9213] ramen
 12:33:39.374 [Apri1#1210] boobs
+13:44:12.767 Login Successful!
+13:44:13.288 Connected to WebSocket
+13:44:13.821 Finished Loading!

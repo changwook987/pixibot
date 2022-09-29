@@ -17,12 +17,8 @@ import kotlin.time.Duration.Companion.minutes
 object Main {
     @JvmStatic
     fun main(args: Array<String>) {
-        if (args.isEmpty()) {
-            System.err.println("token이 없습니다")
-            exitProcess(-1)
-        }
-
-        val (token) = args
+        val token = if (args.isNotEmpty()) args[0]
+        else System.getenv("TOKEN") ?: exitProcess(-1)
 
         val jda = light(token)
         var tokenProvider = TokenProvider()

@@ -2,4 +2,3 @@ token
 # Project exclude paths
 /.gradle/
 /build/
-/build/classes/kotlin/main/
