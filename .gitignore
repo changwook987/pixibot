@@ -1,4 +1,6 @@
 token
+console.log
+
 # Project exclude paths
 /.gradle/
 /build/
