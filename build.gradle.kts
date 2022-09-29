@@ -18,7 +18,6 @@ dependencies {
     implementation("net.dv8tion:JDA:5.0.0-alpha.20")
     implementation("com.github.minndevelopment:jda-ktx:0.9.5-alpha.19")
     implementation("com.github.hanshsieh:pixivj:1.2.3")
-    implementation("ch.qos.logback:logback-classic:1.4.1")
 }
 
 tasks.test {

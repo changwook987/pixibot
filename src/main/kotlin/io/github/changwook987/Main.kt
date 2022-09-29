@@ -10,7 +10,6 @@ import dev.minn.jda.ktx.interactions.commands.slash
 import dev.minn.jda.ktx.interactions.commands.updateCommands
 import dev.minn.jda.ktx.jdabuilder.light
 import net.dv8tion.jda.api.entities.channel.concrete.TextChannel
-import org.slf4j.LoggerFactory
 import kotlin.system.exitProcess
 import kotlin.time.Duration.Companion.minutes
 
@@ -28,8 +27,6 @@ object Main {
 
         var client = PixivApiClient.Builder()
             .setTokenProvider(tokenProvider).build()
-
-        val log = LoggerFactory.getLogger(this::class.java)
 
         jda.updateCommands {
             slash("검색", "픽시브에서 그림을 검색합니다") {
@@ -51,8 +48,6 @@ object Main {
 
             val query = commandEvent.getOption("검색어")!!.asString
             val count = commandEvent.getOption("개수")?.asInt ?: 1
-
-            log.info("[{}] {}", commandEvent.user.asTag, query)
 
             val illustrations = try {
                 client.search(query)
