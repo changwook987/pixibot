@@ -33,4 +33,4 @@ application {
     mainClass.set("io.github.changwook987.Main")
 }
 
-task("stage").dependsOn("run", "clean")
+task("stage").dependsOn("clean")
