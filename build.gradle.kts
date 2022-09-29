@@ -29,8 +29,25 @@ tasks.withType<KotlinCompile> {
     kotlinOptions.jvmTarget = "1.8"
 }
 
-application {
-    mainClass.set("io.github.changwook987.Main")
+tasks.create<Jar>("discordJar") {
+    from(sourceSets["main"].output)
+
+    manifest {
+        attributes["Main-Class"] = "io.github.changwook987.Main"
+    }
+
+    archiveBaseName.set("DiscordKotlin")
+    archiveVersion.set("")
+
+    from(configurations.compileClasspath.get().map { if (it.isDirectory) it else zipTree(it) })
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+
+    doLast {
+        copy {
+            from(archiveFile)
+            into(rootDir)
+        }
+    }
 }
 
-task("stage").dependsOn("clean")
+task("stage").dependsOn("discordJar", "clean")

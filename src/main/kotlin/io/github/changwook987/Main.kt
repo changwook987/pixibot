@@ -18,7 +18,10 @@ object Main {
     @JvmStatic
     fun main(args: Array<String>) {
         val token = if (args.isNotEmpty()) args[0]
-        else System.getenv("TOKEN") ?: exitProcess(-1)
+        else System.getenv("TOKEN") ?: run {
+            System.err.println("토큰이 누락되었습니다")
+            exitProcess(-1)
+        }
 
         val jda = light(token)
         var tokenProvider = TokenProvider()

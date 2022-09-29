@@ -1,1 +1,1 @@
-worker: ./gradlew run
+worker: java -jar DiscordKotlin.jar
