@@ -1,0 +1,105 @@
+19:12:51.993 Login Successful!
+19:12:52.410 Connected to WebSocket
+19:12:52.839 Finished Loading!
+19:13:18.659 [Gbunny#9213] 시발
+19:13:42.561 [Gbunny#9213] 아루
+19:13:52.857 [Gbunny#9213] 몰루
+19:14:12.491 [Gbunny#9213] 치비키
+19:14:58.230 [Apri1#1210] 망이
+19:15:20.328 [Apri1#1210] djmax
+19:39:46.433 [JongPark#1234] nilou
+19:40:05.957 [JongPark#1234] nilou
+19:40:32.895 [JongPark#1234] hoshimachi suisei
+19:40:49.576 [JongPark#1234] sakura miko
+19:41:09.222 [JongPark#1234] houshou marine
+19:41:19.332 [JongPark#1234] houshou marine
+19:41:39.768 [JongPark#1234] minato aqua
+20:08:31.788 [Apri1#1210] 감우
+20:09:18.342 [Apri1#1210] gamyu
+20:09:44.882 [Apri1#1210] mona
+20:10:43.780 [Apri1#1210] 라이덴
+20:11:39.711 [Gbunny#9213] 물방게
+20:12:13.720 [Gbunny#9213] osu
+20:12:52.654 [Apri1#1210] aqua
+20:13:15.686 [Apri1#1210] osu
+20:13:41.376 [Apri1#1210] shirakami fubuki
+20:14:14.134 [Apri1#1210] hosho marin
+20:15:54.602 [Apri1#1210] yandere
+20:17:58.613 [Gbunny#9213] 파풀라투스
+20:20:03.003 [Gbunny#9213] 륵시드
+20:22:58.280 [Gbunny#9213] 그림그리는법
+20:45:53.428 [Gbunny#9213] 코딩
+20:46:41.271 [Gbunny#9213] 스타라이트
+21:06:58.238 [midori.#0001] 닐루
+21:27:40.969 [Gbunny#9213] 아무거나
+21:30:28.827 [Gbunny#9213] 연산군
+21:34:03.661 [JongPark#1234] sex
+21:34:19.054 [JongPark#1234] #r-18
+21:34:44.406 [JongPark#1234] #r-18
+21:36:00.041 [JongPark#1234] #r-18 aqua
+21:36:16.509 [JongPark#1234] minato aqua #r-18
+21:36:39.134 [JongPark#1234] hoshimachi_suisei #r-18
+21:37:20.312 [JongPark#1234] houshou marine #r-18
+21:37:39.230 [JongPark#1234] 소화기
+07:22:03.694 [Gbunny#9213] 씨발
+07:22:21.215 [Gbunny#9213] 씨발
+08:27:32.672 Login Successful!
+08:27:33.195 Connected to WebSocket
+08:27:33.626 Finished Loading!
+09:44:51.696 Login Successful!
+09:44:52.128 Connected to WebSocket
+09:44:52.552 Finished Loading!
+09:45:03.959 Uncaught exception in event listener
+java.lang.NumberFormatException: The specified ID is not a valid snowflake (씹덕짤). Expecting a valid long value!
+	at net.dv8tion.jda.api.utils.MiscUtil.parseSnowflake(MiscUtil.java:123)
+	at net.dv8tion.jda.api.entities.channel.attribute.IGuildChannelContainer.getChannelById(IGuildChannelContainer.java:72)
+	at io.github.changwook987.Main$main$2.invokeSuspend(Main.kt:81)
+	at io.github.changwook987.Main$main$2.invoke(Main.kt)
+	at io.github.changwook987.Main$main$2.invoke(Main.kt)
+	at dev.minn.jda.ktx.events.EventsKt$onCommand-5_5nbZA$$inlined$listener-Kx4hsE0$1.onEvent(CoroutineEventManager.kt:153)
+	at dev.minn.jda.ktx.events.CoroutineEventManager.runListener$suspendImpl(CoroutineEventManager.kt:101)
+	at dev.minn.jda.ktx.events.CoroutineEventManager.runListener(CoroutineEventManager.kt)
+	at dev.minn.jda.ktx.events.CoroutineEventManager$handle$1$result$1.invokeSuspend(CoroutineEventManager.kt:85)
+	at dev.minn.jda.ktx.events.CoroutineEventManager$handle$1$result$1.invoke(CoroutineEventManager.kt)
+	at dev.minn.jda.ktx.events.CoroutineEventManager$handle$1$result$1.invoke(CoroutineEventManager.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturnIgnoreTimeout(Undispatched.kt:100)
+	at kotlinx.coroutines.TimeoutKt.setupTimeout(Timeout.kt:146)
+	at kotlinx.coroutines.TimeoutKt.withTimeoutOrNull(Timeout.kt:103)
+	at dev.minn.jda.ktx.events.CoroutineEventManager$handle$1.invokeSuspend(CoroutineEventManager.kt:84)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+09:45:54.461 Login Successful!
+09:45:54.861 Connected to WebSocket
+09:45:55.335 Finished Loading!
+09:46:44.777 Login Successful!
+09:46:45.204 Connected to WebSocket
+09:46:45.865 Finished Loading!
+09:48:15.217 [Gbunny#9213] 뷁
+09:51:02.002 [Gbunny#9213] 유은재
+10:16:28.025 [Gbunny#9213] vscode
+10:24:04.604 [delect me#0211] 문제인
+10:24:16.971 [Gbunny#9213] 한별
+11:00:13.927 Missed 2 heartbeats! Trying to reconnect...
+11:00:13.946 Missed 2 heartbeats! Trying to reconnect...
+11:00:13.946 Missed 2 heartbeats! Trying to reconnect...
+11:00:13.947 Missed 2 heartbeats! Trying to reconnect...
+11:00:13.947 Missed 2 heartbeats! Trying to reconnect...
+11:00:13.947 Missed 2 heartbeats! Trying to reconnect...
+11:00:13.947 Missed 2 heartbeats! Trying to reconnect...
+11:00:13.947 Missed 2 heartbeats! Trying to reconnect...
+11:00:13.948 Missed 2 heartbeats! Trying to reconnect...
+11:00:13.948 Missed 2 heartbeats! Trying to reconnect...
+11:00:13.948 Missed 2 heartbeats! Trying to reconnect...
+11:00:26.150 Reconnect failed! Next attempt in 2s
+11:00:29.184 Got disconnected from WebSocket (Code 1000). Appending to reconnect queue
+11:00:33.610 Connected to WebSocket
+11:00:34.262 Finished (Re)Loading!
+11:31:40.198 Reconnect failed! Next attempt in 2s
+11:31:42.230 Reconnect failed! Next attempt in 4s
+11:31:46.252 Reconnect failed! Next attempt in 8s
+12:31:39.559 [Gbunny#9213] ramen
+12:33:39.374 [Apri1#1210] boobs
