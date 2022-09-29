@@ -15,9 +15,14 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+
+    implementation(kotlin("stdlib"))
     implementation("net.dv8tion:JDA:5.0.0-alpha.20")
     implementation("com.github.minndevelopment:jda-ktx:0.9.5-alpha.19")
     implementation("com.github.hanshsieh:pixivj:1.2.3")
+    implementation("net.sf.trove4j:trove4j:3.0.3")
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.13.4")
+    implementation("com.squareup.okhttp3:okhttp:5.0.0-alpha.6")
 }
 
 tasks.test {
